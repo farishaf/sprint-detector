@@ -1,0 +1,6 @@
+{
+  "name": "Sprint Detector & Timer",
+  "description": "Aplikasi pendeteksi gerakan & timer sprint presisi tinggi dengan photo finish snapshot dan deteksi garis kamera.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
