@@ -78,7 +78,7 @@ export const CameraDetectorView: React.FC<CameraDetectorViewProps> = ({
       if (!window.isSecureContext || !navigator.mediaDevices?.getUserMedia) {
         setHasCameraPermission(false);
         setCameraError(
-          `Kamera hanya bisa diakses lewat HTTPS (atau http://localhost). Anda membuka lewat "${window.location.origin}" yang tidak aman. Gunakan http://localhost:3000 di komputer ini, atau HTTPS setelah deploy ke VPS.`
+          `Kamera hanya bisa diakses lewat HTTPS (atau http://localhost). Anda membuka lewat "${window.location.origin}" yang tidak aman. Gunakan http://localhost:3003 di komputer ini, atau HTTPS setelah deploy ke VPS.`
         );
         return;
       }

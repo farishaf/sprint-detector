@@ -24,7 +24,7 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocketServer({ server, path: '/ws' });
 
-const PORT = 3000;
+const PORT = 3003;
 
 app.use(express.json());
 
